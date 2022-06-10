@@ -24,6 +24,10 @@
     Hello World
 </title>
 
+    <link rel="icon" type="image/png" sizes="16x16" href="/avatar.jpg?v=1.0.2">
+
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/avatar.jpg?v=1.0.2">
 
 
 
@@ -43,8 +47,8 @@
   "Web Developer"
 ]</script>
 <script>window.FAVICON={
-  "icon16": null,
-  "icon32": null,
+  "icon16": "/avatar.jpg",
+  "icon32": "/avatar.jpg",
   "appleTouchIcon": null,
   "webmanifest": null,
   "visibilitychange": false,
@@ -112,8 +116,8 @@
 			<a href="/" class="trm-logo-frame trm-anima-link">
 				<img src="/logo.png" alt="logo">
 				<div class="trm-logo-text">
-					Karl
-					<span>Ding</span>
+					Karl Ding
+					<span>Station</span>
 				</div>
 			</a>
 			<!-- logo end -->
@@ -127,21 +131,21 @@
 						
 						<li class="menu-item-has-children ">
 							<a  href="/">
-								首页
+								主页
 							</a>
 							
 						</li>
 						
 						<li class="menu-item-has-children ">
 							<a  href="/archives/">
-								归档
+								时间轴
 							</a>
 							
 						</li>
 						
 						<li class="menu-item-has-children ">
 							<a  href="/links/">
-								友链
+								快速通道
 							</a>
 							
 						</li>
@@ -176,7 +180,7 @@
     <!-- banner -->
     <div class="trm-banner" data-scroll data-scroll-direction="vertical">
     <!-- banner cover -->
-    <img src="https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg?source=1940ef5c" alt="banner" class="trm-banner-cover" data-scroll data-scroll-direction="vertical" data-scroll-speed="-3">
+    <img src="/colorful_black.jpg" alt="banner" class="trm-banner-cover" data-scroll data-scroll-direction="vertical" data-scroll-speed="-3">
     <!-- banner cover end -->
 
     <!-- banner slideshow cover-->
@@ -245,7 +249,7 @@
         <!-- data scroll original set 60 -->
         <!-- card header -->
         <div class="trm-mc-header">
-            <div class="trm-avatar-frame trm-mb-20"><img class="trm-avatar" src="博主头像信息" alt="Avatar"> </div>
+            <div class="trm-avatar-frame trm-mb-20"><img class="trm-avatar" src="/avatar.jpg" alt="Avatar"> </div>
             <h5 class="trm-name trm-mb-15">
                 Karl Ding
             </h5>
@@ -386,7 +390,7 @@
 </footer>
 <script>
     function show_date_time () {
-        BirthDay = new Date("04/10/2022 17:00:00");
+        BirthDay = new Date("06/01/2022 17:00:00");
         today = new Date();
         timeold = (today.getTime() - BirthDay.getTime());
         msPerDay = 24 * 60 * 60 * 1000
