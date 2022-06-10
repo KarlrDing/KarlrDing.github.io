@@ -138,7 +138,7 @@ p {
   opacity: 1 !important;
 }
 .trm-accent-color {
-  color: #AFB42B;
+  color: #51A8DD;
 }
 .trm-label {
   text-transform: uppercase;
@@ -152,7 +152,7 @@ p {
   color: #7B7B7D;
 }
 .trm-label.trm-label-color {
-  color: #afb42b;
+  color: #51A8DD;
 }
 a.trm-label i {
   margin-top: -1px;
@@ -166,7 +166,7 @@ a.trm-label .fa-arrow-right {
 a.trm-label:focus,
 a.trm-label:hover {
   outline: inherit;
-  color: #AFB42B;
+  color: #51A8DD;
 }
 a.trm-label:focus .fa-arrow-right,
 a.trm-label:hover .fa-arrow-right {
@@ -214,7 +214,7 @@ html.is-animating .trm-swup-animation {
 }
 .trm-divider {
   height: 1px;
-  border-bottom: dotted 2px rgba(225, 225, 235, 0.9);
+  border-bottom: 2px solid rgba(225, 225, 235, 0.9);
   width: 100%;
 }
 .trm-just-img {
@@ -231,7 +231,7 @@ html.is-animating .trm-swup-animation {
   width: 4px;
   right: 1px;
   border-radius: 10px;
-  background-color: #AFB42B;
+  background-color: #51A8DD;
   opacity: 1;
 }
 /* Code, Pre [landscape](http://goo.gl/hnwXeD) */
@@ -673,7 +673,7 @@ pre .javascript .function {
   border: solid 10px #00151f;
   position: relative;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 30px;
   width: 100vw;
   height: 100vh;
   background-color: #f4f5f7;
@@ -698,7 +698,7 @@ pre .javascript .function {
   opacity: 0.3;
 }
 .trm-app-frame .trm-content {
-  margin-top: -40px;
+  margin-top: 40px;
   padding: 0 0 60px;
   z-index: 0;
   position: relative;
@@ -732,7 +732,6 @@ pre .javascript .function {
   position: fixed;
   left: 0;
   right: 0;
-  border-radius: 10px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
   z-index: 9;
   background-color: #fcfcfe;
@@ -744,7 +743,7 @@ pre .javascript .function {
   position: absolute;
   left: 30px;
   height: 8px;
-  width: calc(100% - 60px);
+  width: calc(100% - 0px);
   background-color: #fcfcfe;
   border-radius: 0 0 5px 5px;
   opacity: 0.3;
@@ -773,7 +772,7 @@ pre .javascript .function {
   letter-spacing: 0;
 }
 .trm-top-bar .container .trm-left-side .trm-logo-frame .trm-logo-text span {
-  color: #afb42b;
+  color: #51A8DD;
 }
 .trm-top-bar .container .trm-left-side .trm-logo-frame img {
   width: 32px !important;
@@ -840,7 +839,7 @@ pre .javascript .function {
   border-radius: 10px;
   height: 4px;
   width: 0;
-  background-color: #afb42b;
+  background-color: #51A8DD;
   transition: 0.4s ease-in-out;
 }
 .trm-menu nav ul li a {
@@ -857,7 +856,7 @@ pre .javascript .function {
   transition: 0.4s ease-in-out;
 }
 .trm-menu nav ul li a:hover {
-  color: #afb42b;
+  color: #51A8DD;
 }
 .trm-menu nav ul li ul {
   padding: 10px;
@@ -931,7 +930,7 @@ pre .javascript .function {
         pointer-events: all
     } */
   .trm-menu nav ul li.current-menu-item a {
-    color: #AFB42B;
+    color: #51A8DD;
   }
   .trm-menu nav ul li.current-menu-item ul li a {
     color: #00283a;
@@ -1072,7 +1071,7 @@ pre .javascript .function {
 }
 .trm-mode-switcher-place .trm-mode-switcher .tgl-light + .trm-swich:after {
   width: 47%;
-  border: solid 3px #afb42b;
+  border: solid 3px #51A8DD;
   border-radius: 50%;
   background: #fcfcfe;
   transition: all 0.2s ease;
@@ -1103,7 +1102,7 @@ pre .javascript .function {
   content: '';
   height: 1px;
   width: 120%;
-  border-bottom: dotted 5px #00283a;
+  border-bottom: solid 3px #00283a;
   position: absolute;
   z-index: 9;
   bottom: 0;
@@ -1163,7 +1162,7 @@ pre .javascript .function {
   left: 0;
   height: 10px;
   width: 10px;
-  border: solid 3px #afb42b;
+  border: solid 3px #51A8DD;
   border-radius: 50%;
 }
 .trm-list li + li {
@@ -1338,7 +1337,7 @@ blockquote:after {
 .trm-main-card-frame {
   position: relative;
   z-index: 2;
-  transform: translateY(-410px);
+  transform: translateY(-180px);
 }
 .trm-main-card-frame .trm-main-card {
   display: flex;
@@ -1354,17 +1353,6 @@ blockquote:after {
 .trm-main-card-frame .trm-main-card.trm-active-el {
   border-radius: 0;
 }
-.trm-main-card-frame .trm-main-card:before {
-  content: '';
-  position: absolute;
-  left: 30px;
-  top: -8px;
-  height: 8px;
-  width: calc(100% - 60px);
-  background-color: #fcfcfe;
-  border-radius: 5px 5px 0 0;
-  opacity: 0.3;
-}
 .trm-main-card-frame .trm-main-card .trm-social {
   display: flex;
   justify-content: center;
@@ -1375,7 +1363,7 @@ blockquote:after {
   transition: 0.4s ease-in-out;
 }
 .trm-main-card-frame .trm-main-card .trm-social a:hover {
-  color: #afb42b;
+  color: #51A8DD;
 }
 .trm-main-card-frame .trm-main-card .trm-table {
   padding: 0;
@@ -2108,7 +2096,7 @@ form textarea:focus {
 }
 .trm-banner {
   width: 100%;
-  height: 560px;
+  height: 910px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -2153,6 +2141,7 @@ form textarea:focus {
 }
 .trm-banner .trm-banner-content .trm-banner-text {
   padding-right: 10px;
+  text-align: right;
 }
 .trm-banner .trm-banner-content .trm-banner-text * {
   color: #fcfcfe;
@@ -2190,7 +2179,7 @@ form textarea:focus {
   transition: 0.4s ease-in-out;
 }
 .trm-banner .trm-banner-content .trm-banner-text .trm-breadcrumbs li a:hover {
-  color: #afb42b;
+  color: #51A8DD;
 }
 .trm-banner .trm-banner-content .trm-banner-text .trm-breadcrumbs li span {
   opacity: 0.8;
@@ -2278,7 +2267,7 @@ form textarea:focus {
   margin-right: 35px;
   display: inline-block;
   height: 1px;
-  border-bottom: dotted 2px rgba(225, 225, 235, 0.9);
+  border-bottom: 2px solid rgba(225, 225, 235, 0.9);
   width: 100%;
 }
 .trm-title-with-divider span:after {
@@ -2312,7 +2301,7 @@ form textarea:focus {
   position: relative;
 }
 .trm-timeline .trm-timeline-item .trm-timeline-mark-light {
-  background: #c0ca33;
+  background: #51A8DD;
   position: absolute;
   top: 15px;
   left: -11px;
@@ -2329,7 +2318,7 @@ form textarea:focus {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: solid 3px #afb42b;
+  border: solid 3px #51A8DD;
   background: #fcfcfe;
 }
 .trm-timeline .trm-timeline-item:hover .trm-timeline-mark-light {
@@ -2430,11 +2419,11 @@ footer .trm-label a:hover {
 }
 .trm-pagination a:hover {
   opacity: 1;
-  color: #afb42b;
+  color: #51A8DD;
 }
 .trm-pagination span {
   color: #fcfcfe;
-  background-color: #afb42b;
+  background-color: #51A8DD;
 }
 .fancybox-slide--video .fancybox-content {
   max-width: 80% !important;
