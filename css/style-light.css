@@ -1337,7 +1337,7 @@ blockquote:after {
 .trm-main-card-frame {
   position: relative;
   z-index: 2;
-  transform: translateY(-180px);
+  transform: translateY(-190px);
 }
 .trm-main-card-frame .trm-main-card {
   display: flex;
@@ -2110,13 +2110,23 @@ form textarea:focus {
   height: 100%;
   width: 100%;
 }
-.trm-banner .trm-banner-cover {
+.trm-banner .trm-banner-cover-dar {
   z-index: -1;
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: top;
+  opacity: 0;
+}
+.trm-banner .trm-banner-cover-lig {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  opacity: 1;
 }
 .trm-banner .trm-publication-cover {
   z-index: -1;
@@ -2137,7 +2147,7 @@ form textarea:focus {
   align-items: center;
 }
 .trm-banner .trm-banner-content.trm-overlay {
-  background-color: rgba(10, 15, 20, 0.2);
+  background-color: rgba(255, 255, 255, 0);
 }
 .trm-banner .trm-banner-content .trm-banner-text {
   padding-right: 10px;
