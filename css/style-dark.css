@@ -1216,7 +1216,7 @@ blockquote {
 }
 blockquote:before {
   margin: 0;
-  color: #afb42b;
+  color: #51A8DD;
   width: 50px;
   line-height: 55px;
   content: '"';
@@ -1228,7 +1228,7 @@ blockquote:before {
 blockquote:after {
   margin: 0;
   width: 50px;
-  color: #afb42b;
+  color: #51A8DD;
   line-height: 55px;
   content: '"';
   position: absolute;
@@ -1271,7 +1271,7 @@ blockquote:after {
 .trm-skill-card .trm-progressbar-frame .trm-progressbar {
   width: 0;
   height: 100%;
-  background-color: #afb42b;
+  background-color: #51A8DD;
   transition: 0.8s ease-in-out;
   transition-delay: 0.4s;
 }
@@ -2541,10 +2541,10 @@ footer .trm-label a:hover {
   box-shadow: inset 0 0 4px -1px rgba(0, 0, 0, 0.6);
 }
 .trm-publication blockquote::before {
-  color: #AFB42B;
+  color: #51A8DD;
 }
 .trm-publication blockquote::after {
-  color: #AFB42B;
+  color: #51A8DD;
 }
 .trm-publication img {
   display: block;
