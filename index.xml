@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Karl Station</title>
+    <link>https://karlrding.github.io/</link>
+    <description>Recent content on Karl Station</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 25 Jun 2025 22:19:27 +0800</lastBuildDate>
+    <atom:link href="https://karlrding.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Title_of_the_post</title>
+      <link>https://karlrding.github.io/post/title_of_the_post/</link>
+      <pubDate>Tue, 24 Jun 2025 23:10:26 +0800</pubDate>
+      <guid>https://karlrding.github.io/post/title_of_the_post/</guid>
+      <description>&lt;p&gt;this is the first post&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://karlrding.github.io/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://karlrding.github.io/readme/</guid>
+      <description>&lt;h2 id=&#34;教育经历&#34;&gt;教育经历&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2016-2020 &lt;code&gt;本科&lt;/code&gt; 华东理工大学          &lt;strong&gt;电气工程及其自动化&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;2019-2020 &lt;code&gt;交换&lt;/code&gt; The University of Sheffield     &lt;strong&gt;Electronic Engineering&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;2021-2022 &lt;code&gt;硕士&lt;/code&gt; University College London     &lt;strong&gt;Intergrated Machine Learning System&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;工作经历&#34;&gt;工作经历&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2020-2021 &lt;code&gt;实习&lt;/code&gt; 施耐德电气上海研究中心    &lt;strong&gt;FPGA Firmware Engineer&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;2022-         上海华为技术有限公司      &lt;strong&gt;逻辑工程师（EDA验证）&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;项目经历&#34;&gt;项目经历&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;接口/接口芯片&lt;/li&gt;&#xA;&lt;li&gt;基带处理&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;技能&#34;&gt;技能&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Verilog&lt;/li&gt;&#xA;&lt;li&gt;SV/UVM(SuperBench)/SVA&lt;/li&gt;&#xA;&lt;li&gt;Python/Pandas&lt;/li&gt;&#xA;&lt;li&gt;PCIe/GE/CPRI/sCPRI&lt;/li&gt;&#xA;&lt;li&gt;PUSCH/PUCCH/SRS/CSI-RS&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

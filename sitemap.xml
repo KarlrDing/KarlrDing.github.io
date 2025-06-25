@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://karlrding.github.io/</loc>
+    <lastmod>2025-06-25T22:19:27+08:00</lastmod>
+  </url><url>
+    <loc>https://karlrding.github.io/post/</loc>
+    <lastmod>2025-06-25T22:19:27+08:00</lastmod>
+  </url><url>
+    <loc>https://karlrding.github.io/post/title_of_the_post/</loc>
+    <lastmod>2025-06-25T22:19:27+08:00</lastmod>
+  </url><url>
+    <loc>https://karlrding.github.io/readme/</loc>
+    <lastmod>2025-06-25T22:11:14+08:00</lastmod>
+  </url><url>
+    <loc>https://karlrding.github.io/categories/</loc>
+  </url><url>
+    <loc>https://karlrding.github.io/tags/</loc>
+  </url>
+</urlset>
