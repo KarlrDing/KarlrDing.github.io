@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Karl Station</title>
-    <link>https://karlrding.github.io/post/</link>
-    <description>Recent content in Posts on Karl Station</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 25 Jun 2025 22:19:27 +0800</lastBuildDate>
-    <atom:link href="https://karlrding.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Title_of_the_post</title>
-      <link>https://karlrding.github.io/post/title_of_the_post/</link>
-      <pubDate>Tue, 24 Jun 2025 23:10:26 +0800</pubDate>
-      <guid>https://karlrding.github.io/post/title_of_the_post/</guid>
-      <description>&lt;p&gt;this is the first post&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Posts on Karl Station</title>
+		<link>http://localhost:1313/post/</link>
+		<description>Recent content in Posts on Karl Station</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 19 Jul 2026 22:35:33 +0800</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Note-001 CORDIC</title>
+				<link>http://localhost:1313/post/title_of_the_post/</link>
+				<pubDate>Tue, 30 Jun 2026 22:00:00 +0800</pubDate>
+				<guid>http://localhost:1313/post/title_of_the_post/</guid>
+				<description>三种坐标系两个模式下的CORDIC推导</description>
+			</item>
+	</channel>
 </rss>
